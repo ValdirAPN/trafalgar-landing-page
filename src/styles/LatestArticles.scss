@@ -1,0 +1,31 @@
+.latest-articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+  h2 {
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 2px;
+      background: var(--gray-400);
+
+      margin: 1.8rem auto 3.2rem;
+    }
+  }
+
+  .articles {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Edward Newgate",
+    "position": "Founder Circle",
+    "imgUrl": "https://images.unsplash.com/photo-1521119989659-a83eee488004?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=664&q=80",
+    "testimonial": "Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely"
+  },
+  {
+    "name": "Tyler Middleton",
+    "position": "Founder Circle",
+    "imgUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pulvinar aliquam nulla, id ornare enim auctor et. Duis lacinia sed orci."
+  },
+  {
+    "name": "Shirley Sandoval",
+    "position": "Founder Circle",
+    "imgUrl": "https://images.unsplash.com/photo-1499651681375-8afc5a4db253?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1287&q=80",
+    "testimonial": "Ut in hendrerit elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi aliquam lobortis."
+  }
+]

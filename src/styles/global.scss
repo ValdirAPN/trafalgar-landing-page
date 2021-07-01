@@ -1,0 +1,44 @@
+:root {
+  --white: #f7f7f7;
+  --gray-100: #7D7987;
+  --gray-400: #1F1534;
+  --cyan: #67C3F3;
+  --blue-200: #d5e7ff;
+  --blue-400: #458FF6;
+  --blue-800: #215fb6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background: var(--white);
+
+  overflow-x: hidden;
+}
+
+body, button {
+  font-family: 'Mulish', sans-serif;
+}
+
+p, a {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--gray-100);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}

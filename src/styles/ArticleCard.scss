@@ -1,0 +1,35 @@
+.article-card {
+  max-width: 340px;
+  border-radius: 20px;
+  background: var(--white);
+  box-shadow: rgba(46, 49, 53, 0.08) 0px 24px 32px;
+
+  .article-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .text-content {
+    padding: 1.5rem 2rem 2rem;
+
+    p {
+      margin: 1rem 0 1.8rem 0;
+    }
+    
+    a {
+      font-weight: 700;
+      color: var(--blue-400);
+      display: flex;
+      align-items: center;
+
+      position: relative;
+
+      img {
+        width: 20px;
+        margin-left: 1rem;
+      }
+    }
+  }
+}

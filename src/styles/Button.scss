@@ -1,0 +1,28 @@
+.button {
+  height: 50px;
+  padding: 0 3rem;
+  border-radius: 4rem;
+  border: 2px solid var(--blue-400);
+
+  background: var(--white);
+  color: var(--blue-400);
+  font-size: 1rem;
+  font-weight: 700;
+
+  transition: ease 0.2s;
+
+  &:hover {
+    border-color: var(--blue-800);
+    color: var(--blue-800);
+  } 
+}
+
+.filled {
+  background: var(--blue-400);
+  color: var(--white);
+
+  &:hover {
+    background: var(--blue-800);
+    color: var(--white);
+  } 
+}

@@ -1,0 +1,47 @@
+.footer {
+  width: 100vw;
+  background: linear-gradient(350deg, var(--blue-400) 40%, var(--cyan) 100%);
+  margin-top: 4rem;
+
+  .footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    padding: 8rem;
+
+    p,
+    dl,
+    a {
+      color: var(--white);
+    }
+
+    .company {
+      max-width: 400px;
+
+      p:first-of-type {
+        margin: 1rem 0 2rem;
+      }
+    }
+
+    .links {
+      display: flex;
+      align-items: center;
+
+      dl {
+        margin-left: 6rem;
+        dt {
+          font-size: 1.1rem;
+          font-weight: 700;
+          margin-bottom: 1.4rem;
+        }
+
+        dd {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}

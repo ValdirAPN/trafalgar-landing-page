@@ -1,0 +1,37 @@
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  p {
+    color: var(--white);
+  }
+
+  .testimonial {
+    max-width: 350px;
+  }
+}
+
+.customer {
+  display: flex;
+  align-items: center;
+
+  min-width: 280px;
+
+  margin-right: 1rem;
+
+  img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--white);
+    background: var(--white);
+    margin-right: 1.6rem;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+}
